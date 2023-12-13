@@ -5,11 +5,13 @@ const Hero = () => {
     return (
         <div>
             <div className='flex items-center justify-center h-25'>
-                <img src={hero} className='w-4/5'></img>
+                < img src={hero} className='w-480 m-7' ></img >
+            </div >
+            <div>
+                <h1 className='text-3xl font-black p-5'>Online Experiences</h1>
+                <h2 className='pl-5'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
             </div>
-            <h1>Online Experiences</h1>
-            <h2>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
-        </div>
+        </div >
     )
 }
 
